@@ -13,7 +13,7 @@
                 <a href="index.html" class="logo m-0 float-start">Tropika Flora Persada</a>
 
                 <ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
-                    <li class="active"><a href="index.html">Beranda</a></li>
+                    <li class="active"><a href="{{url('home')}}">Beranda</a></li>
                     <li class=""><a href="{{url('product')}}">Produk</a></li>
                     {{-- <li class="has-children">
                         <a href="properties.html">Properties</a>

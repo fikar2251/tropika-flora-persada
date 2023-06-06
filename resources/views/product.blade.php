@@ -370,12 +370,12 @@
                         </a>
 
                         <div class="property-content">
-                            <div class="price mb-2"><span>$1,291,000</span></div>
+                            <div class="price mb-2"><span>Mawar Merah</span></div>
                             <div>
-                                <span class="d-block mb-2 text-black-50">5232 California Fake, Ave. 21BC</span>
-                                <span class="city d-block mb-3">California, USA</span>
+                                <span class="d-block mb-2 text-black-50">Kategori: </span>
+                                <span class="city d-block mb-3">Mawar</span>
 
-                                <div class="specs d-flex mb-4">
+                                {{-- <div class="specs d-flex mb-4">
                                     <span class="d-block d-flex align-items-center me-3">
                                         <span class="icon-bed me-2"></span>
                                         <span class="caption">2 beds</span>
@@ -384,9 +384,9 @@
                                         <span class="icon-bath me-2"></span>
                                         <span class="caption">2 baths</span>
                                     </span>
-                                </div>
+                                </div> --}}
 
-                                <a href="property-single.html" class="btn btn-primary py-2 px-3">See details</a>
+                                <a href="property-single.html" class="btn btn-primary py-2 px-3">Lihat detail</a>
                             </div>
                         </div>
                     </div>
@@ -397,14 +397,13 @@
                         <a href="property-single.html" class="img">
                             <img src="assets2/images/img_2.jpg" alt="Image" class="img-fluid" />
                         </a>
-
                         <div class="property-content">
-                            <div class="price mb-2"><span>$1,291,000</span></div>
+                            <div class="price mb-2"><span>Mawar Hitam</span></div>
                             <div>
-                                <span class="d-block mb-2 text-black-50">5232 California Fake, Ave. 21BC</span>
-                                <span class="city d-block mb-3">California, USA</span>
+                                <span class="d-block mb-2 text-black-50">Kategori:</span>
+                                <span class="city d-block mb-3">Mawar</span>
 
-                                <div class="specs d-flex mb-4">
+                                {{-- <div class="specs d-flex mb-4">
                                     <span class="d-block d-flex align-items-center me-3">
                                         <span class="icon-bed me-2"></span>
                                         <span class="caption">2 beds</span>
@@ -413,9 +412,9 @@
                                         <span class="icon-bath me-2"></span>
                                         <span class="caption">2 baths</span>
                                     </span>
-                                </div>
+                                </div> --}}
 
-                                <a href="property-single.html" class="btn btn-primary py-2 px-3">See details</a>
+                                <a href="property-single.html" class="btn btn-primary py-2 px-3">Lihat detail</a>
                             </div>
                         </div>
                     </div>
@@ -427,13 +426,14 @@
                             <img src="assets2/images/img_3.jpg" alt="Image" class="img-fluid" />
                         </a>
 
+                       
                         <div class="property-content">
-                            <div class="price mb-2"><span>$1,291,000</span></div>
+                            <div class="price mb-2"><span>Kamboja</span></div>
                             <div>
-                                <span class="d-block mb-2 text-black-50">5232 California Fake, Ave. 21BC</span>
-                                <span class="city d-block mb-3">California, USA</span>
+                                <span class="d-block mb-2 text-black-50">Kategori:</span>
+                                <span class="city d-block mb-3">Bunga</span>
 
-                                <div class="specs d-flex mb-4">
+                                {{-- <div class="specs d-flex mb-4">
                                     <span class="d-block d-flex align-items-center me-3">
                                         <span class="icon-bed me-2"></span>
                                         <span class="caption">2 beds</span>
@@ -442,15 +442,15 @@
                                         <span class="icon-bath me-2"></span>
                                         <span class="caption">2 baths</span>
                                     </span>
-                                </div>
+                                </div> --}}
 
-                                <a href="property-single.html" class="btn btn-primary py-2 px-3">See details</a>
+                                <a href="property-single.html" class="btn btn-primary py-2 px-3">Lihat detail</a>
                             </div>
                         </div>
                     </div>
                     <!-- .item -->
                 </div>
-
+{{-- 
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
                     <div class="property-item mb-30">
                         <a href="property-single.html" class="img">
@@ -625,7 +625,7 @@
                         </div>
                     </div>
                     <!-- .item -->
-                </div>
+                </div> --}}
             </div>
             <div class="row align-items-center py-5">
                 <div class="col-lg-3">Pagination (1 of 10)</div>
