@@ -24,6 +24,7 @@
     <script src="{{ asset('assets2/js/navbar.js') }}"></script>
     <script src="{{ asset('assets2/js/counter.js') }}"></script>
     <script src="{{ asset('assets2/js/custom.js') }}"></script>
+    <script src="https://kit.fontawesome.com/746cfdf9dd.js" crossorigin="anonymous"></script>
     @stack('custom-scripts')
 </body>
 

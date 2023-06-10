@@ -2,7 +2,7 @@
 @section('content')
 <div
 class="hero page-inner overlay"
-style="background-image: url('assets2/images/hero_bg_1.jpg')"
+style="background-image: url('img/FOTO/026-GRADE OF RUSCUS.jpg')"
 >
 <div class="container">
   <div class="row justify-content-center align-items-center">

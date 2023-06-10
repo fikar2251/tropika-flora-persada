@@ -10,11 +10,12 @@
     <div class="container">
         <div class="menu-bg-wrap">
             <div class="site-navigation">
-                <a href="index.html" class="logo m-0 float-start">Tropika Flora Persada</a>
+                <img width="50" height="50" src="{{asset('img/Logo.jpg')}}" style="margin-right: 5px;" class="logo float-start" alt="" >
+                <a href="{{url('home')}}" class="logo mt-2 float-start">Tropika Flora Persada</a>
 
                 <ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
-                    <li class="active"><a href="index.html">Beranda</a></li>
-                    <li class=""><a href="{{url('product')}}">Produk</a></li>
+                    <li ><a href="{{url('home')}}">BERANDA</a></li>
+                    <li ><a href="{{url('product')}}">PRODUK</a></li>
                     {{-- <li class="has-children">
                         <a href="properties.html">Properties</a>
                         <ul class="dropdown">
@@ -31,8 +32,8 @@
                         </ul>
                     </li> --}}
                     {{-- <li><a href="services.html">Services</a></li> --}}
-                    <li><a href="{{url('about')}}">Tentang Kami</a></li>
-                    <li><a href="{{url('contact')}}">Kontak Kami</a></li>
+                    <li><a href="{{url('about')}}">TENTANG KAMI</a></li>
+                    <li><a href="{{url('contact')}}">KONTAK KAMI</a></li>
                 </ul>
 
                 <a href="#"

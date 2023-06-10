@@ -2,9 +2,9 @@
 @section('content')
 <div class="hero">
     <div class="hero-slide">
-        <div class="img overlay" style="background-image: url('assets2/images/hero_bg_3.jpg')"></div>
-        <div class="img overlay" style="background-image: url('assets2/images/hero_bg_2.jpg')"></div>
-        <div class="img overlay" style="background-image: url('assets2/images/hero_bg_1.jpg')"></div>
+        <div class="img overlay" style="background-image: url('img/FOTO/010-RUSCUS FARM-03.JPG')"></div>
+        <div class="img overlay" style="background-image: url('img/FOTO/007.jpg')"></div>
+        <div class="img overlay" style="background-image: url('img/FOTO/011.jpg')"></div>
     </div>
 
     <div class="container">
@@ -44,8 +44,8 @@
                 <div class="property-slider-wrap">
                     <div class="property-slider">
                         <div class="property-item">
-                            <a href="property-single.html" class="img">
-                                <img src="assets2/images/img_1.jpg" alt="Image" class="img-fluid" />
+                            <a href="{{url('detail')}}" class="img">
+                                <img src="img/bunga_1.jpg" alt="Image" class="img-fluid" />
                             </a>
 
                             <div class="property-content">
@@ -53,6 +53,7 @@
                                 <div>
                                     <span class="d-block mb-2 text-black-50">Kategori: </span>
                                     <span class="city d-block mb-3">Mawar</span>
+
 
                                     {{-- <div class="specs d-flex mb-4">
                                         <span class="d-block d-flex align-items-center me-3">
@@ -65,15 +66,15 @@
                                         </span>
                                     </div> --}}
 
-                                    <a href="property-single.html" class="btn btn-primary py-2 px-3">Lihat detail</a>
+                                    <a href="{{url('detail')}}" class="btn btn-primary py-2 px-3">Lihat detail</a>
                                 </div>
                             </div>
                         </div>
                         <!-- .item -->
 
                         <div class="property-item">
-                            <a href="property-single.html" class="img">
-                                <img src="assets2/images/img_2.jpg" alt="Image" class="img-fluid" />
+                            <a href="#" class="img">
+                                <img src="img/bunga_2.jpg" alt="Image" class="img-fluid" />
                             </a>
 
                             <div class="property-content">
@@ -93,15 +94,15 @@
                                         </span>
                                     </div> --}}
 
-                                    <a href="property-single.html" class="btn btn-primary py-2 px-3">Lihat detail</a>
+                                    <a href="#" class="btn btn-primary py-2 px-3">Lihat detail</a>
                                 </div>
                             </div>
                         </div>
                         <!-- .item -->
 
                         <div class="property-item">
-                            <a href="property-single.html" class="img">
-                                <img src="assets2/images/img_3.jpg" alt="Image" class="img-fluid" />
+                            <a href="#" class="img">
+                                <img src="img/bunga_3.jpg" alt="Image" class="img-fluid" />
                             </a>
 
                             <div class="property-content">
@@ -121,14 +122,14 @@
                                         </span>
                                     </div> --}}
 
-                                    <a href="property-single.html" class="btn btn-primary py-2 px-3">Lihat detail</a>
+                                    <a href="#" class="btn btn-primary py-2 px-3">Lihat detail</a>
                                 </div>
                             </div>
                         </div>
                         <!-- .item -->
 
                         {{-- <div class="property-item">
-                            <a href="property-single.html" class="img">
+                            <a href="#" class="img">
                                 <img src="assets2/images/img_4.jpg" alt="Image" class="img-fluid" />
                             </a>
 
@@ -149,7 +150,7 @@
                                         </span>
                                     </div>
 
-                                    <a href="property-single.html" class="btn btn-primary py-2 px-3">See
+                                    <a href="#" class="btn btn-primary py-2 px-3">See
                                         details</a>
                                 </div>
                             </div>
@@ -157,7 +158,7 @@
                         <!-- .item -->
 
                         <div class="property-item">
-                            <a href="property-single.html" class="img">
+                            <a href="#" class="img">
                                 <img src="assets2/images/img_5.jpg" alt="Image" class="img-fluid" />
                             </a>
 
@@ -178,7 +179,7 @@
                                         </span>
                                     </div>
 
-                                    <a href="property-single.html" class="btn btn-primary py-2 px-3">See
+                                    <a href="#" class="btn btn-primary py-2 px-3">See
                                         details</a>
                                 </div>
                             </div>
@@ -186,7 +187,7 @@
                         <!-- .item -->
 
                         <div class="property-item">
-                            <a href="property-single.html" class="img">
+                            <a href="#" class="img">
                                 <img src="assets2/images/img_6.jpg" alt="Image" class="img-fluid" />
                             </a>
 
@@ -207,7 +208,7 @@
                                         </span>
                                     </div>
 
-                                    <a href="property-single.html" class="btn btn-primary py-2 px-3">See
+                                    <a href="#" class="btn btn-primary py-2 px-3">See
                                         details</a>
                                 </div>
                             </div>
@@ -215,7 +216,7 @@
                         <!-- .item -->
 
                         <div class="property-item">
-                            <a href="property-single.html" class="img">
+                            <a href="#" class="img">
                                 <img src="assets2/images/img_7.jpg" alt="Image" class="img-fluid" />
                             </a>
 
@@ -236,7 +237,7 @@
                                         </span>
                                     </div>
 
-                                    <a href="property-single.html" class="btn btn-primary py-2 px-3">See
+                                    <a href="#" class="btn btn-primary py-2 px-3">See
                                         details</a>
                                 </div>
                             </div>
@@ -244,7 +245,7 @@
                         <!-- .item -->
 
                         <div class="property-item">
-                            <a href="property-single.html" class="img">
+                            <a href="#" class="img">
                                 <img src="assets2/images/img_8.jpg" alt="Image" class="img-fluid" />
                             </a>
 
@@ -265,7 +266,7 @@
                                         </span>
                                     </div>
 
-                                    <a href="property-single.html" class="btn btn-primary py-2 px-3">See
+                                    <a href="#" class="btn btn-primary py-2 px-3">See
                                         details</a>
                                 </div>
                             </div>
@@ -273,7 +274,7 @@
                         <!-- .item -->
 
                         <div class="property-item">
-                            <a href="property-single.html" class="img">
+                            <a href="#" class="img">
                                 <img src="assets2/images/img_1.jpg" alt="Image" class="img-fluid" />
                             </a>
 
@@ -294,7 +295,7 @@
                                         </span>
                                     </div>
 
-                                    <a href="property-single.html" class="btn btn-primary py-2 px-3">See
+                                    <a href="#" class="btn btn-primary py-2 px-3">See
                                         details</a>
                                 </div>
                             </div>

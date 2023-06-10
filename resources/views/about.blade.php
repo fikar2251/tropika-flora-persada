@@ -1,6 +1,6 @@
 @extends('layouts.app2')
 @section('content')
-    <div class="hero page-inner overlay" style="background-image: url('assets2/images/hero_bg_3.jpg')">
+    <div class="hero page-inner overlay" style="background-image: url('img/FOTO/009-RUSCUS FARM-02.jpg')">
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="col-lg-9 text-center mt-5">
@@ -62,7 +62,7 @@
         </div>
     </div>
 
-    <div class="section pt-0">
+   {{-- <div class="section pt-0">
         <div class="container">
             <div class="row justify-content-between mb-5">
                 <div class="col-lg-7 mb-5 mb-lg-0 order-lg-2">
@@ -205,7 +205,7 @@
                 </div>
             </div> --}}
         </div>
-    </div>
+    </div>  --}}
 
     <div class="section sec-testimonials bg-light">
         <div class="container">

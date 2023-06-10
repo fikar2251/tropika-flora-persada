@@ -1,6 +1,6 @@
 @extends('layouts.app2')
 @section('content')
-    <div class="hero page-inner overlay" style="background-image: url('assets2/images/hero_bg_1.jpg')">
+    <div class="hero page-inner overlay" style="background-image: url('img/FOTO/010-RUSCUS FARM-03.jpg')">
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="col-lg-9 text-center mt-5">
@@ -33,8 +33,8 @@
                     <div class="property-slider-wrap">
                         <div class="property-slider">
                             <div class="property-item">
-                                <a href="property-single.html" class="img">
-                                    <img src="assets2/images/img_1.jpg" alt="Image" class="img-fluid" />
+                                <a href="#" class="img">
+                                    <img src="img/bunga_1.jpg" alt="Image" class="img-fluid" />
                                 </a>
 
                                 <div class="property-content">
@@ -54,15 +54,15 @@
                                             </span>
                                         </div>
 
-                                        <a href="property-single.html" class="btn btn-primary py-2 px-3">See details</a>
+                                        <a href="#" class="btn btn-primary py-2 px-3">See details</a>
                                     </div>
                                 </div>
                             </div>
                             <!-- .item -->
 
                             <div class="property-item">
-                                <a href="property-single.html" class="img">
-                                    <img src="assets2/images/img_2.jpg" alt="Image" class="img-fluid" />
+                                <a href="#" class="img">
+                                    <img src="img/bunga_2.jpg" alt="Image" class="img-fluid" />
                                 </a>
 
                                 <div class="property-content">
@@ -82,15 +82,15 @@
                                             </span>
                                         </div>
 
-                                        <a href="property-single.html" class="btn btn-primary py-2 px-3">See details</a>
+                                        <a href="#" class="btn btn-primary py-2 px-3">See details</a>
                                     </div>
                                 </div>
                             </div>
                             <!-- .item -->
 
                             <div class="property-item">
-                                <a href="property-single.html" class="img">
-                                    <img src="assets2/images/img_3.jpg" alt="Image" class="img-fluid" />
+                                <a href="#" class="img">
+                                    <img src="img/bunga_3.jpg" alt="Image" class="img-fluid" />
                                 </a>
 
                                 <div class="property-content">
@@ -110,14 +110,14 @@
                                             </span>
                                         </div>
 
-                                        <a href="property-single.html" class="btn btn-primary py-2 px-3">See details</a>
+                                        <a href="#" class="btn btn-primary py-2 px-3">See details</a>
                                     </div>
                                 </div>
                             </div>
                             <!-- .item -->
 
                             <div class="property-item">
-                                <a href="property-single.html" class="img">
+                                <a href="#" class="img">
                                     <img src="assets2/images/img_4.jpg" alt="Image" class="img-fluid" />
                                 </a>
 
@@ -138,14 +138,14 @@
                                             </span>
                                         </div>
 
-                                        <a href="property-single.html" class="btn btn-primary py-2 px-3">See details</a>
+                                        <a href="#" class="btn btn-primary py-2 px-3">See details</a>
                                     </div>
                                 </div>
                             </div>
                             <!-- .item -->
 
                             <div class="property-item">
-                                <a href="property-single.html" class="img">
+                                <a href="#" class="img">
                                     <img src="assets2/images/img_5.jpg" alt="Image" class="img-fluid" />
                                 </a>
 
@@ -166,14 +166,14 @@
                                             </span>
                                         </div>
 
-                                        <a href="property-single.html" class="btn btn-primary py-2 px-3">See details</a>
+                                        <a href="#" class="btn btn-primary py-2 px-3">See details</a>
                                     </div>
                                 </div>
                             </div>
                             <!-- .item -->
 
                             <div class="property-item">
-                                <a href="property-single.html" class="img">
+                                <a href="#" class="img">
                                     <img src="assets2/images/img_6.jpg" alt="Image" class="img-fluid" />
                                 </a>
 
@@ -194,14 +194,14 @@
                                             </span>
                                         </div>
 
-                                        <a href="property-single.html" class="btn btn-primary py-2 px-3">See details</a>
+                                        <a href="#" class="btn btn-primary py-2 px-3">See details</a>
                                     </div>
                                 </div>
                             </div>
                             <!-- .item -->
 
                             <div class="property-item">
-                                <a href="property-single.html" class="img">
+                                <a href="#" class="img">
                                     <img src="assets2/images/img_7.jpg" alt="Image" class="img-fluid" />
                                 </a>
 
@@ -222,14 +222,14 @@
                                             </span>
                                         </div>
 
-                                        <a href="property-single.html" class="btn btn-primary py-2 px-3">See details</a>
+                                        <a href="#" class="btn btn-primary py-2 px-3">See details</a>
                                     </div>
                                 </div>
                             </div>
                             <!-- .item -->
 
                             <div class="property-item">
-                                <a href="property-single.html" class="img">
+                                <a href="#" class="img">
                                     <img src="assets2/images/img_8.jpg" alt="Image" class="img-fluid" />
                                 </a>
 
@@ -250,14 +250,14 @@
                                             </span>
                                         </div>
 
-                                        <a href="property-single.html" class="btn btn-primary py-2 px-3">See details</a>
+                                        <a href="#" class="btn btn-primary py-2 px-3">See details</a>
                                     </div>
                                 </div>
                             </div>
                             <!-- .item -->
 
                             <div class="property-item">
-                                <a href="property-single.html" class="img">
+                                <a href="#" class="img">
                                     <img src="assets2/images/img_1.jpg" alt="Image" class="img-fluid" />
                                 </a>
 
@@ -278,7 +278,7 @@
                                             </span>
                                         </div>
 
-                                        <a href="property-single.html" class="btn btn-primary py-2 px-3">See details</a>
+                                        <a href="#" class="btn btn-primary py-2 px-3">See details</a>
                                     </div>
                                 </div>
                             </div>
@@ -365,17 +365,17 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
                     <div class="property-item mb-30">
-                        <a href="property-single.html" class="img">
-                            <img src="assets2/images/img_1.jpg" alt="Image" class="img-fluid" />
+                        <a href="{{url('detail')}}" class="img">
+                            <img src="img/bunga_1.jpg" alt="Image" class="img-fluid" />
                         </a>
 
                         <div class="property-content">
-                            <div class="price mb-2"><span>$1,291,000</span></div>
+                            <div class="price mb-2"><span>Mawar Merah</span></div>
                             <div>
-                                <span class="d-block mb-2 text-black-50">5232 California Fake, Ave. 21BC</span>
-                                <span class="city d-block mb-3">California, USA</span>
+                                <span class="d-block mb-2 text-black-50">Kategori: </span>
+                                <span class="city d-block mb-3">Mawar</span>
 
-                                <div class="specs d-flex mb-4">
+                                {{-- <div class="specs d-flex mb-4">
                                     <span class="d-block d-flex align-items-center me-3">
                                         <span class="icon-bed me-2"></span>
                                         <span class="caption">2 beds</span>
@@ -384,9 +384,9 @@
                                         <span class="icon-bath me-2"></span>
                                         <span class="caption">2 baths</span>
                                     </span>
-                                </div>
+                                </div> --}}
 
-                                <a href="property-single.html" class="btn btn-primary py-2 px-3">See details</a>
+                                <a href="#" class="btn btn-primary py-2 px-3">Lihat detail</a>
                             </div>
                         </div>
                     </div>
@@ -394,17 +394,16 @@
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
                     <div class="property-item mb-30">
-                        <a href="property-single.html" class="img">
-                            <img src="assets2/images/img_2.jpg" alt="Image" class="img-fluid" />
+                        <a href="#" class="img">
+                            <img src="img/bunga_2.jpg" alt="Image" class="img-fluid" />
                         </a>
-
                         <div class="property-content">
-                            <div class="price mb-2"><span>$1,291,000</span></div>
+                            <div class="price mb-2"><span>Mawar Hitam</span></div>
                             <div>
-                                <span class="d-block mb-2 text-black-50">5232 California Fake, Ave. 21BC</span>
-                                <span class="city d-block mb-3">California, USA</span>
+                                <span class="d-block mb-2 text-black-50">Kategori:</span>
+                                <span class="city d-block mb-3">Mawar</span>
 
-                                <div class="specs d-flex mb-4">
+                                {{-- <div class="specs d-flex mb-4">
                                     <span class="d-block d-flex align-items-center me-3">
                                         <span class="icon-bed me-2"></span>
                                         <span class="caption">2 beds</span>
@@ -413,9 +412,9 @@
                                         <span class="icon-bath me-2"></span>
                                         <span class="caption">2 baths</span>
                                     </span>
-                                </div>
+                                </div> --}}
 
-                                <a href="property-single.html" class="btn btn-primary py-2 px-3">See details</a>
+                                <a href="#" class="btn btn-primary py-2 px-3">Lihat detail</a>
                             </div>
                         </div>
                     </div>
@@ -423,17 +422,18 @@
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
                     <div class="property-item mb-30">
-                        <a href="property-single.html" class="img">
-                            <img src="assets2/images/img_3.jpg" alt="Image" class="img-fluid" />
+                        <a href="#" class="img">
+                            <img src="img/bunga_3.jpg" alt="Image" class="img-fluid" />
                         </a>
 
+                       
                         <div class="property-content">
-                            <div class="price mb-2"><span>$1,291,000</span></div>
+                            <div class="price mb-2"><span>Kamboja</span></div>
                             <div>
-                                <span class="d-block mb-2 text-black-50">5232 California Fake, Ave. 21BC</span>
-                                <span class="city d-block mb-3">California, USA</span>
+                                <span class="d-block mb-2 text-black-50">Kategori:</span>
+                                <span class="city d-block mb-3">Bunga</span>
 
-                                <div class="specs d-flex mb-4">
+                                {{-- <div class="specs d-flex mb-4">
                                     <span class="d-block d-flex align-items-center me-3">
                                         <span class="icon-bed me-2"></span>
                                         <span class="caption">2 beds</span>
@@ -442,18 +442,105 @@
                                         <span class="icon-bath me-2"></span>
                                         <span class="caption">2 baths</span>
                                     </span>
-                                </div>
+                                </div> --}}
 
-                                <a href="property-single.html" class="btn btn-primary py-2 px-3">See details</a>
+                                <a href="#" class="btn btn-primary py-2 px-3">Lihat detail</a>
                             </div>
                         </div>
                     </div>
                     <!-- .item -->
                 </div>
-
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
                     <div class="property-item mb-30">
-                        <a href="property-single.html" class="img">
+                        <a href="#" class="img">
+                            <img src="img/bunga_4.jpg" alt="Image" class="img-fluid" />
+                        </a>
+
+                        <div class="property-content">
+                            <div class="price mb-2"><span>Mawar Merah</span></div>
+                            <div>
+                                <span class="d-block mb-2 text-black-50">Kategori: </span>
+                                <span class="city d-block mb-3">Mawar</span>
+
+                                {{-- <div class="specs d-flex mb-4">
+                                    <span class="d-block d-flex align-items-center me-3">
+                                        <span class="icon-bed me-2"></span>
+                                        <span class="caption">2 beds</span>
+                                    </span>
+                                    <span class="d-block d-flex align-items-center">
+                                        <span class="icon-bath me-2"></span>
+                                        <span class="caption">2 baths</span>
+                                    </span>
+                                </div> --}}
+
+                                <a href="#" class="btn btn-primary py-2 px-3">Lihat detail</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- .item -->
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="property-item mb-30">
+                        <a href="#" class="img">
+                            <img src="img/bunga_5.jpg" alt="Image" class="img-fluid" />
+                        </a>
+                        <div class="property-content">
+                            <div class="price mb-2"><span>Mawar Hitam</span></div>
+                            <div>
+                                <span class="d-block mb-2 text-black-50">Kategori:</span>
+                                <span class="city d-block mb-3">Mawar</span>
+
+                                {{-- <div class="specs d-flex mb-4">
+                                    <span class="d-block d-flex align-items-center me-3">
+                                        <span class="icon-bed me-2"></span>
+                                        <span class="caption">2 beds</span>
+                                    </span>
+                                    <span class="d-block d-flex align-items-center">
+                                        <span class="icon-bath me-2"></span>
+                                        <span class="caption">2 baths</span>
+                                    </span>
+                                </div> --}}
+
+                                <a href="#" class="btn btn-primary py-2 px-3">Lihat detail</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- .item -->
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="property-item mb-30">
+                        <a href="#" class="img">
+                            <img src="img/bunga_6.jpg" alt="Image" class="img-fluid" />
+                        </a>
+
+                       
+                        <div class="property-content">
+                            <div class="price mb-2"><span>Kamboja</span></div>
+                            <div>
+                                <span class="d-block mb-2 text-black-50">Kategori:</span>
+                                <span class="city d-block mb-3">Bunga</span>
+
+                                {{-- <div class="specs d-flex mb-4">
+                                    <span class="d-block d-flex align-items-center me-3">
+                                        <span class="icon-bed me-2"></span>
+                                        <span class="caption">2 beds</span>
+                                    </span>
+                                    <span class="d-block d-flex align-items-center">
+                                        <span class="icon-bath me-2"></span>
+                                        <span class="caption">2 baths</span>
+                                    </span>
+                                </div> --}}
+
+                                <a href="#" class="btn btn-primary py-2 px-3">Lihat detail</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- .item -->
+                </div>
+{{-- 
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="property-item mb-30">
+                        <a href="#" class="img">
                             <img src="assets2/images/img_4.jpg" alt="Image" class="img-fluid" />
                         </a>
 
@@ -474,7 +561,7 @@
                                     </span>
                                 </div>
 
-                                <a href="property-single.html" class="btn btn-primary py-2 px-3">See details</a>
+                                <a href="#" class="btn btn-primary py-2 px-3">See details</a>
                             </div>
                         </div>
                     </div>
@@ -482,7 +569,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
                     <div class="property-item mb-30">
-                        <a href="property-single.html" class="img">
+                        <a href="#" class="img">
                             <img src="assets2/images/img_5.jpg" alt="Image" class="img-fluid" />
                         </a>
 
@@ -503,7 +590,7 @@
                                     </span>
                                 </div>
 
-                                <a href="property-single.html" class="btn btn-primary py-2 px-3">See details</a>
+                                <a href="#" class="btn btn-primary py-2 px-3">See details</a>
                             </div>
                         </div>
                     </div>
@@ -511,7 +598,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
                     <div class="property-item mb-30">
-                        <a href="property-single.html" class="img">
+                        <a href="#" class="img">
                             <img src="assets2/images/img_6.jpg" alt="Image" class="img-fluid" />
                         </a>
 
@@ -532,7 +619,7 @@
                                     </span>
                                 </div>
 
-                                <a href="property-single.html" class="btn btn-primary py-2 px-3">See details</a>
+                                <a href="#" class="btn btn-primary py-2 px-3">See details</a>
                             </div>
                         </div>
                     </div>
@@ -541,7 +628,7 @@
 
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
                     <div class="property-item mb-30">
-                        <a href="property-single.html" class="img">
+                        <a href="#" class="img">
                             <img src="assets2/images/img_7.jpg" alt="Image" class="img-fluid" />
                         </a>
 
@@ -562,7 +649,7 @@
                                     </span>
                                 </div>
 
-                                <a href="property-single.html" class="btn btn-primary py-2 px-3">See details</a>
+                                <a href="#" class="btn btn-primary py-2 px-3">See details</a>
                             </div>
                         </div>
                     </div>
@@ -570,7 +657,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
                     <div class="property-item mb-30">
-                        <a href="property-single.html" class="img">
+                        <a href="#" class="img">
                             <img src="assets2/images/img_8.jpg" alt="Image" class="img-fluid" />
                         </a>
 
@@ -591,7 +678,7 @@
                                     </span>
                                 </div>
 
-                                <a href="property-single.html" class="btn btn-primary py-2 px-3">See details</a>
+                                <a href="#" class="btn btn-primary py-2 px-3">See details</a>
                             </div>
                         </div>
                     </div>
@@ -599,7 +686,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
                     <div class="property-item mb-30">
-                        <a href="property-single.html" class="img">
+                        <a href="#" class="img">
                             <img src="assets2/images/img_1.jpg" alt="Image" class="img-fluid" />
                         </a>
 
@@ -620,12 +707,12 @@
                                     </span>
                                 </div>
 
-                                <a href="property-single.html" class="btn btn-primary py-2 px-3">See details</a>
+                                <a href="#" class="btn btn-primary py-2 px-3">See details</a>
                             </div>
                         </div>
                     </div>
                     <!-- .item -->
-                </div>
+                </div> --}}
             </div>
             <div class="row align-items-center py-5">
                 <div class="col-lg-3">Pagination (1 of 10)</div>
