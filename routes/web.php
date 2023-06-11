@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 
 Route::get('/home', function () {
-    return view('index2');
+    return view('index');
 });
 Route::get('/product', function () {
     return view('product');
@@ -28,4 +28,7 @@ Route::get('/about', function () {
 });
 Route::get('/contact', function () {
     return view('contact');
+});
+Route::get('/detail_product', function () {
+    return view('detail_product');
 });

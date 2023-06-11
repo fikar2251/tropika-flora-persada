@@ -1,436 +1,941 @@
 @extends('layouts.app')
-
 @section('content')
-    <!--===============================
-    =            Hero Area            =
-    ================================-->
+    <div class="hero">
+        <div class="hero-slide">
+            <div class="img overlay" style="background-image: url('assets2/images/hero_bg_3.jpg')"></div>
+            <div class="img overlay" style="background-image: url('assets2/images/hero_bg_2.jpg')"></div>
+            <div class="img overlay" style="background-image: url('assets2/images/hero_bg_1.jpg')"></div>
+        </div>
 
-    <section class="hero-area bg-1 text-center overly">
-        <!-- Container Start -->
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <!-- Header Contetnt -->
-                    <div class="content-block">
-                        <h1>Buy & Sell Near You </h1>
-                        <p>Join the millions who buy and sell from each other <br> everyday in local communities around
-                            the world</p>
-                        {{-- <div class="short-popular-category-list text-center">
-                            <h2>Popular Category</h2>
-                            <ul class="list-inline">
-                                <li class="list-inline-item">
-                                    <a href="category.html"><i class="fa fa-bed"></i> Hotel</a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="category.html"><i class="fa fa-grav"></i> Fitness</a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="category.html"><i class="fa fa-car"></i> Cars</a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="category.html"><i class="fa fa-cutlery"></i> Restaurants</a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="category.html"><i class="fa fa-coffee"></i> Cafe</a>
-                                </li>
-                            </ul>
-                        </div> --}}
-
-                    </div>
-                    <!-- Advance Search -->
-                    <div class="advance-search">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-12 col-md-12 align-content-center">
-                                    {{-- <form>
-                                        <div class="form-row">
-                                            <div class="form-group col-xl-4 col-lg-3 col-md-6">
-                                                <input type="text" class="form-control my-2 my-lg-1" id="inputtext4"
-                                                    placeholder="What are you looking for">
-                                            </div>
-                                            <div class="form-group col-lg-3 col-md-6">
-                                                <select class="w-100 form-control mt-lg-1 mt-md-2">
-                                                    <option>Category</option>
-                                                    <option value="1">Top rated</option>
-                                                    <option value="2">Lowest Price</option>
-                                                    <option value="4">Highest Price</option>
-                                                </select>
-                                            </div>
-                                            <div class="form-group col-lg-3 col-md-6">
-                                                <input type="text" class="form-control my-2 my-lg-1" id="inputLocation4"
-                                                    placeholder="Location">
-                                            </div>
-                                            <div class="form-group col-xl-2 col-lg-3 col-md-6 align-self-center">
-                                                <button type="submit" class="btn btn-primary active w-100">Search
-                                                    Now</button>
-                                            </div>
-                                        </div>
-                                    </form> --}}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-9 text-center">
+                    <h1 class="heading" data-aos="fade-up">
+                        Temukan Bungamu Disini
+                    </h1>
+                    <form action="#" class="narrow-w form-search d-flex align-items-stretch mb-3" data-aos="fade-up"
+                        data-aos-delay="200">
+                        <input type="text" class="form-control px-4" placeholder="Cari Bunga" />
+                        <button type="submit" class="btn btn-primary">Cari</button>
+                    </form>
                 </div>
             </div>
         </div>
-        <!-- Container End -->
-    </section>
+    </div>
 
-
-    <!--===========================================
-    =            Popular deals section            =
-    ============================================-->
-
-    <section class="popular-deals section bg-gray">
+    <div class="section">
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-title">
-                        <h2>Beberapa produk kami</h2>
-                        {{-- <p>Beberap</p> --}}
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <!-- offer 01 -->
+            <div class="row mb-5 align-items-center">
                 <div class="col-lg-12">
-                    <div class="trending-ads-slide">
-                        <div class="col-sm-12 col-lg-4">
-                            <!-- product card -->
-                            <div class="product-item bg-light">
-                                <div class="card">
-                                    <div class="thumb-content">
-                                        <!-- <div class="price">$200</div> -->
-                                        <a href="single.html">
-                                            <img class="card-img-top img-fluid" src="images/products/products-1.jpg"
-                                                alt="Card image cap">
-                                        </a>
-                                    </div>
-                                    <div class="card-body">
-                                        <h4 class="card-title"><a href="single.html">11inch Macbook Air</a></h4>
-                                        <ul class="list-inline product-meta">
-                                            <li class="list-inline-item">
-                                                <a href="single.html"><i class="fa fa-folder-open-o"></i>Electronics</a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a href="category.html"><i class="fa fa-calendar"></i>26th
-                                                    December</a>
-                                            </li>
-                                        </ul>
-                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                            Explicabo, aliquam!</p>
-                                        <div class="product-ratings">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                                                <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                                                <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                                                <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-
-                        </div>
-                        <div class="col-sm-12 col-lg-4">
-                            <!-- product card -->
-                            <div class="product-item bg-light">
-                                <div class="card">
-                                    <div class="thumb-content">
-                                        <!-- <div class="price">$200</div> -->
-                                        <a href="single.html">
-                                            <img class="card-img-top img-fluid" src="images/products/products-2.jpg"
-                                                alt="Card image cap">
-                                        </a>
-                                    </div>
-                                    <div class="card-body">
-                                        <h4 class="card-title"><a href="single.html">Full Study Table Combo</a></h4>
-                                        <ul class="list-inline product-meta">
-                                            <li class="list-inline-item">
-                                                <a href="single.html"><i class="fa fa-folder-open-o"></i>Furnitures</a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a href="category.html"><i class="fa fa-calendar"></i>26th
-                                                    December</a>
-                                            </li>
-                                        </ul>
-                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                            Explicabo, aliquam!</p>
-                                        <div class="product-ratings">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                                                <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                                                <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                                                <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-
-                        </div>
-                        <div class="col-sm-12 col-lg-4">
-                            <!-- product card -->
-                            <div class="product-item bg-light">
-                                <div class="card">
-                                    <div class="thumb-content">
-                                        <!-- <div class="price">$200</div> -->
-                                        <a href="single.html">
-                                            <img class="card-img-top img-fluid" src="images/products/products-3.jpg"
-                                                alt="Card image cap">
-                                        </a>
-                                    </div>
-                                    <div class="card-body">
-                                        <h4 class="card-title"><a href="single.html">11inch Macbook Air</a></h4>
-                                        <ul class="list-inline product-meta">
-                                            <li class="list-inline-item">
-                                                <a href="single.html"><i class="fa fa-folder-open-o"></i>Electronics</a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a href="category.html"><i class="fa fa-calendar"></i>26th
-                                                    December</a>
-                                            </li>
-                                        </ul>
-                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                            Explicabo, aliquam!</p>
-                                        <div class="product-ratings">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                                                <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                                                <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                                                <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-
-                        </div>
-                        <div class="col-sm-12 col-lg-4">
-                            <!-- product card -->
-                            <div class="product-item bg-light">
-                                <div class="card">
-                                    <div class="thumb-content">
-                                        <!-- <div class="price">$200</div> -->
-                                        <a href="single.html">
-                                            <img class="card-img-top img-fluid" src="images/products/products-2.jpg"
-                                                alt="Card image cap">
-                                        </a>
-                                    </div>
-                                    <div class="card-body">
-                                        <h4 class="card-title"><a href="single.html">Full Study Table Combo</a></h4>
-                                        <ul class="list-inline product-meta">
-                                            <li class="list-inline-item">
-                                                <a href="single.html"><i class="fa fa-folder-open-o"></i>Furnitures</a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a href="category.html"><i class="fa fa-calendar"></i>26th
-                                                    December</a>
-                                            </li>
-                                        </ul>
-                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                            Explicabo, aliquam!</p>
-                                        <div class="product-ratings">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                                                <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                                                <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                                                <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-
-                        </div>
-                    </div>
+                    <h2 class="font-weight-bold text-primary heading">
+                        Kategori
+                    </h2>
                 </div>
             </div>
-        </div>
-    </section>
-
-
-
-    <!--==========================================
-    =            All Category Section            =
-    ===========================================-->
-{{-- 
-    <section class=" section">
-        <!-- Container Start -->
-        <div class="container">
+            <div class="row mb-5">
+                <section class="features-1">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                                <div class="box-feature">
+                                    <img class="icon-cat" src="assets2/images/local-flower.png" alt="Image">
+                                    <h3 class="mb-3 mt-2">Local Flowers</h3>
+                                    {{-- <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        Voluptates, accusamus.
+                                    </p>
+                                    <p><a href="#" class="learn-more">Learn More</a></p> --}}
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="500">
+                                <div class="box-feature">
+                                    <img class="icon-cat" src="assets2/images/filler-flower.png" alt="Image"><br>
+                                    <h3 class="mb-3 mt-2">Filler Flowers</h3>
+                                    {{-- <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        Voluptates, accusamus.
+                                    </p>
+                                    <p><a href="#" class="learn-more">Learn More</a></p> --}}
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+                                <div class="box-feature">
+                                    <img class="icon-cat" src="assets2/images/line-flower.png" alt="Image"><br>
+                                    <h3 class="mb-3 mt-2">Line Flowers</h3>
+                                    {{-- <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        Voluptates, accusamus.
+                                    </p>
+                                    <p><a href="#" class="learn-more">Learn More</a></p> --}}
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="600">
+                                <div class="box-feature">
+                                    <img class="icon-cat" src="assets2/images/greenery.png" alt="Image"><br>
+                                    <h3 class="mb-3 mt-2">Greenery</h3>
+                                    {{-- <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        Voluptates, accusamus.
+                                    </p>
+                                    <p><a href="#" class="learn-more">Learn More</a></p> --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="row mb-3 align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="font-weight-bold text-primary heading">
+                        Bunga Terlaris
+                    </h2>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <p>
+                        <a href="#" target="_blank" class="btn btn-primary text-white py-3 px-4">Lihat Semua
+                            Produk</a>
+                    </p>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-12">
-                    <!-- Section title -->
-                    <div class="section-title">
-                        <h2>All Categories</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, provident!</p>
+                    <div class="property-slider-wrap">
+                        <div class="property-slider">
+                            <div class="property-item">
+                                <a href="{{ url('detail_product') }}" class="img">
+                                    <img src="assets2/images/flower1.jpg" alt="Image" class="img-fluid" />
+                                </a>
+
+                                <div class="property-content">
+                                    <div class="price mb-2"><span>Bunga 1</span></div>
+                                    <div>
+                                        <span class="d-block mb-2 text-black-50">Kategori:</span>
+                                        <span class="city d-block mb-3">Bunga</span>
+
+                                        {{-- <div class="specs d-flex mb-4">
+                                        <span class="d-block d-flex align-items-center me-3">
+                                            <span class="icon-bed me-2"></span>
+                                            <span class="caption">2 beds</span>
+                                        </span>
+                                        <span class="d-block d-flex align-items-center">
+                                            <span class="icon-bath me-2"></span>
+                                            <span class="caption">2 baths</span>
+                                        </span>
+                                    </div> --}}
+
+                                        <a href="{{ url('detail_product') }}" class="btn btn-primary py-2 px-3">Lihat
+                                            Detail</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- .item -->
+
+                            <div class="property-item">
+                                <a href="{{ url('detail_product') }}" class="img">
+                                    <img src="assets2/images/flower2.jpg" alt="Image" class="img-fluid" />
+                                </a>
+
+                                <div class="property-content">
+                                    <div class="price mb-2"><span>Bunga 2</span></div>
+                                    <div>
+                                        <span class="d-block mb-2 text-black-50">Kategori:</span>
+                                        <span class="city d-block mb-3">Bunga</span>
+
+                                        {{-- <div class="specs d-flex mb-4">
+                                        <span class="d-block d-flex align-items-center me-3">
+                                            <span class="icon-bed me-2"></span>
+                                            <span class="caption">2 beds</span>
+                                        </span>
+                                        <span class="d-block d-flex align-items-center">
+                                            <span class="icon-bath me-2"></span>
+                                            <span class="caption">2 baths</span>
+                                        </span>
+                                    </div> --}}
+
+                                        <a href="{{ url('detail_product') }}" class="btn btn-primary py-2 px-3">Lihat
+                                            Detail</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- .item -->
+
+                            <div class="property-item">
+                                <a href="{{ url('detail_product') }}" class="img">
+                                    <img src="assets2/images/flower3.jpg" alt="Image" class="img-fluid" />
+                                </a>
+
+                                <div class="property-content">
+                                    <div class="price mb-2"><span>Bunga 3</span></div>
+                                    <div>
+                                        <span class="d-block mb-2 text-black-50">Kategori:</span>
+                                        <span class="city d-block mb-3">Bunga</span>
+
+                                        {{-- <div class="specs d-flex mb-4">
+                                        <span class="d-block d-flex align-items-center me-3">
+                                            <span class="icon-bed me-2"></span>
+                                            <span class="caption">2 beds</span>
+                                        </span>
+                                        <span class="d-block d-flex align-items-center">
+                                            <span class="icon-bath me-2"></span>
+                                            <span class="caption">2 baths</span>
+                                        </span>
+                                    </div> --}}
+
+                                        <a href="{{ url('detail_product') }}" class="btn btn-primary py-2 px-3">Lihat
+                                            Detail</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- .item -->
+
+                            <div class="property-item">
+                                <a href="{{ url('detail_product') }}" class="img">
+                                    <img src="assets2/images/flower4.jpg" alt="Image" class="img-fluid" />
+                                </a>
+
+                                <div class="property-content">
+                                    <div class="price mb-2"><span>Bunga 4</span></div>
+                                    <div>
+                                        <span class="d-block mb-2 text-black-50">Kategori:</span>
+                                        <span class="city d-block mb-3">Bunga</span>
+
+                                        {{-- <div class="specs d-flex mb-4">
+                                        <span class="d-block d-flex align-items-center me-3">
+                                            <span class="icon-bed me-2"></span>
+                                            <span class="caption">2 beds</span>
+                                        </span>
+                                        <span class="d-block d-flex align-items-center">
+                                            <span class="icon-bath me-2"></span>
+                                            <span class="caption">2 baths</span>
+                                        </span>
+                                    </div> --}}
+
+                                        <a href="{{ url('detail_product') }}" class="btn btn-primary py-2 px-3">Lihat
+                                            Detail</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- .item -->
+
+                            <div class="property-item">
+                                <a href="{{ url('detail_product') }}" class="img">
+                                    <img src="assets2/images/flower5.jpg" alt="Image" class="img-fluid" />
+                                </a>
+
+                                <div class="property-content">
+                                    <div class="price mb-2"><span>Bunga 5</span></div>
+                                    <div>
+                                        <span class="d-block mb-2 text-black-50">Kategori:</span>
+                                        <span class="city d-block mb-3">Bunga</span>
+
+                                        {{-- <div class="specs d-flex mb-4">
+                                        <span class="d-block d-flex align-items-center me-3">
+                                            <span class="icon-bed me-2"></span>
+                                            <span class="caption">2 beds</span>
+                                        </span>
+                                        <span class="d-block d-flex align-items-center">
+                                            <span class="icon-bath me-2"></span>
+                                            <span class="caption">2 baths</span>
+                                        </span>
+                                    </div> --}}
+
+                                        <a href="{{ url('detail_product') }}" class="btn btn-primary py-2 px-3">Lihat
+                                            Detail</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- .item -->
+
+                            <div class="property-item">
+                                <a href="{{ url('detail_product') }}" class="img">
+                                    <img src="assets2/images/flower6.jpg" alt="Image" class="img-fluid" />
+                                </a>
+
+                                <div class="property-content">
+                                    <div class="price mb-2"><span>Bunga 3</span></div>
+                                    <div>
+                                        <span class="d-block mb-2 text-black-50">Kategori:</span>
+                                        <span class="city d-block mb-3">Bunga</span>
+
+                                        {{-- <div class="specs d-flex mb-4">
+                                        <span class="d-block d-flex align-items-center me-3">
+                                            <span class="icon-bed me-2"></span>
+                                            <span class="caption">2 beds</span>
+                                        </span>
+                                        <span class="d-block d-flex align-items-center">
+                                            <span class="icon-bath me-2"></span>
+                                            <span class="caption">2 baths</span>
+                                        </span>
+                                    </div> --}}
+
+                                        <a href="{{ url('detail_product') }}" class="btn btn-primary py-2 px-3">Lihat
+                                            Detail</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- .item -->
+
+                            {{-- <div class="property-item">
+                                <a href="{{ url('detail_product') }}" class="img">
+                                    <img src="assets2/images/img_7.jpg" alt="Image" class="img-fluid" />
+                                </a>
+
+                                <div class="property-content">
+                                    <div class="price mb-2"><span>$1,291,000</span></div>
+                                    <div>
+                                        <span class="d-block mb-2 text-black-50">5232 California Fake, Ave. 21BC</span>
+                                        <span class="city d-block mb-3">California, USA</span>
+
+                                        <div class="specs d-flex mb-4">
+                                            <span class="d-block d-flex align-items-center me-3">
+                                                <span class="icon-bed me-2"></span>
+                                                <span class="caption">2 beds</span>
+                                            </span>
+                                            <span class="d-block d-flex align-items-center">
+                                                <span class="icon-bath me-2"></span>
+                                                <span class="caption">2 baths</span>
+                                            </span>
+                                        </div>
+
+                                        <a href="{{ url('detail_product') }}" class="btn btn-primary py-2 px-3">See
+                                            details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- .item -->
+
+                            <div class="property-item">
+                                <a href="{{ url('detail_product') }}" class="img">
+                                    <img src="assets2/images/img_8.jpg" alt="Image" class="img-fluid" />
+                                </a>
+
+                                <div class="property-content">
+                                    <div class="price mb-2"><span>$1,291,000</span></div>
+                                    <div>
+                                        <span class="d-block mb-2 text-black-50">5232 California Fake, Ave. 21BC</span>
+                                        <span class="city d-block mb-3">California, USA</span>
+
+                                        <div class="specs d-flex mb-4">
+                                            <span class="d-block d-flex align-items-center me-3">
+                                                <span class="icon-bed me-2"></span>
+                                                <span class="caption">2 beds</span>
+                                            </span>
+                                            <span class="d-block d-flex align-items-center">
+                                                <span class="icon-bath me-2"></span>
+                                                <span class="caption">2 baths</span>
+                                            </span>
+                                        </div>
+
+                                        <a href="{{ url('detail_product') }}" class="btn btn-primary py-2 px-3">See
+                                            details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- .item -->
+
+                            <div class="property-item">
+                                <a href="{{ url('detail_product') }}" class="img">
+                                    <img src="assets2/images/img_1.jpg" alt="Image" class="img-fluid" />
+                                </a>
+
+                                <div class="property-content">
+                                    <div class="price mb-2"><span>$1,291,000</span></div>
+                                    <div>
+                                        <span class="d-block mb-2 text-black-50">5232 California Fake, Ave. 21BC</span>
+                                        <span class="city d-block mb-3">California, USA</span>
+
+                                        <div class="specs d-flex mb-4">
+                                            <span class="d-block d-flex align-items-center me-3">
+                                                <span class="icon-bed me-2"></span>
+                                                <span class="caption">2 beds</span>
+                                            </span>
+                                            <span class="d-block d-flex align-items-center">
+                                                <span class="icon-bath me-2"></span>
+                                                <span class="caption">2 baths</span>
+                                            </span>
+                                        </div>
+
+                                        <a href="{{ url('detail_product') }}" class="btn btn-primary py-2 px-3">See
+                                            details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- .item --> --}}
+                        </div>
+
+                        <div id="property-nav" class="controls" tabindex="0" aria-label="Carousel Navigation">
+                            <span class="prev" data-controls="prev" aria-controls="property"
+                                tabindex="-1">Prev</span>
+                            <span class="next" data-controls="next" aria-controls="property"
+                                tabindex="-1">Next</span>
+                        </div>
                     </div>
-                    <div class="row">
-                        <!-- Category list -->
-                        <div class="col-lg-3 offset-lg-0 col-md-5 offset-md-1 col-sm-6">
-                            <div class="category-block">
-                                <div class="header">
-                                    <i class="fa fa-laptop icon-bg-1"></i>
-                                    <h4>Electronics</h4>
-                                </div>
-                                <ul class="category-list">
-                                    <li><a href="category.html">Laptops <span>93</span></a></li>
-                                    <li><a href="category.html">Iphone <span>233</span></a></li>
-                                    <li><a href="category.html">Microsoft <span>183</span></a></li>
-                                    <li><a href="category.html">Monitors <span>343</span></a></li>
-                                </ul>
-                            </div>
-                        </div> <!-- /Category List -->
-                        <!-- Category list -->
-                        <div class="col-lg-3 offset-lg-0 col-md-5 offset-md-1 col-sm-6">
-                            <div class="category-block">
-                                <div class="header">
-                                    <i class="fa fa-apple icon-bg-2"></i>
-                                    <h4>Restaurants</h4>
-                                </div>
-                                <ul class="category-list">
-                                    <li><a href="category.html">Cafe <span>393</span></a></li>
-                                    <li><a href="category.html">Fast food <span>23</span></a></li>
-                                    <li><a href="category.html">Restaurants <span>13</span></a></li>
-                                    <li><a href="category.html">Food Track<span>43</span></a></li>
-                                </ul>
-                            </div>
-                        </div> <!-- /Category List -->
-                        <!-- Category list -->
-                        <div class="col-lg-3 offset-lg-0 col-md-5 offset-md-1 col-sm-6">
-                            <div class="category-block">
-                                <div class="header">
-                                    <i class="fa fa-home icon-bg-3"></i>
-                                    <h4>Real Estate</h4>
-                                </div>
-                                <ul class="category-list">
-                                    <li><a href="category.html">Farms <span>93</span></a></li>
-                                    <li><a href="category.html">Gym <span>23</span></a></li>
-                                    <li><a href="category.html">Hospitals <span>83</span></a></li>
-                                    <li><a href="category.html">Parolurs <span>33</span></a></li>
-                                </ul>
-                            </div>
-                        </div> <!-- /Category List -->
-                        <!-- Category list -->
-                        <div class="col-lg-3 offset-lg-0 col-md-5 offset-md-1 col-sm-6">
-                            <div class="category-block">
-                                <div class="header">
-                                    <i class="fa fa-shopping-basket icon-bg-4"></i>
-                                    <h4>Shoppings</h4>
-                                </div>
-                                <ul class="category-list">
-                                    <li><a href="category.html">Mens Wears <span>53</span></a></li>
-                                    <li><a href="category.html">Accessories <span>212</span></a></li>
-                                    <li><a href="category.html">Kids Wears <span>133</span></a></li>
-                                    <li><a href="category.html">It & Software <span>143</span></a></li>
-                                </ul>
-                            </div>
-                        </div> <!-- /Category List -->
-                        <!-- Category list -->
-                        <div class="col-lg-3 offset-lg-0 col-md-5 offset-md-1 col-sm-6">
-                            <div class="category-block">
-                                <div class="header">
-                                    <i class="fa fa-briefcase icon-bg-5"></i>
-                                    <h4>Jobs</h4>
-                                </div>
-                                <ul class="category-list">
-                                    <li><a href="category.html">It Jobs <span>93</span></a></li>
-                                    <li><a href="category.html">Cleaning & Washing <span>233</span></a></li>
-                                    <li><a href="category.html">Management <span>183</span></a></li>
-                                    <li><a href="category.html">Voluntary Works <span>343</span></a></li>
-                                </ul>
-                            </div>
-                        </div> <!-- /Category List -->
-                        <!-- Category list -->
-                        <div class="col-lg-3 offset-lg-0 col-md-5 offset-md-1 col-sm-6">
-                            <div class="category-block">
-                                <div class="header">
-                                    <i class="fa fa-car icon-bg-6"></i>
-                                    <h4>Vehicles</h4>
-                                </div>
-                                <ul class="category-list">
-                                    <li><a href="category.html">Bus <span>193</span></a></li>
-                                    <li><a href="category.html">Cars <span>23</span></a></li>
-                                    <li><a href="category.html">Motobike <span>33</span></a></li>
-                                    <li><a href="category.html">Rent a car <span>73</span></a></li>
-                                </ul>
-                            </div>
-                        </div> <!-- /Category List -->
-                        <!-- Category list -->
-                        <div class="col-lg-3 offset-lg-0 col-md-5 offset-md-1 col-sm-6">
-                            <div class="category-block">
-                                <div class="header">
-                                    <i class="fa fa-paw icon-bg-7"></i>
-                                    <h4>Pets</h4>
-                                </div>
-                                <ul class="category-list">
-                                    <li><a href="category.html">Cats <span>65</span></a></li>
-                                    <li><a href="category.html">Dogs <span>23</span></a></li>
-                                    <li><a href="category.html">Birds <span>113</span></a></li>
-                                    <li><a href="category.html">Others <span>43</span></a></li>
-                                </ul>
-                            </div>
-                        </div> <!-- /Category List -->
-                        <!-- Category list -->
-                        <div class="col-lg-3 offset-lg-0 col-md-5 offset-md-1 col-sm-6">
-                            <div class="category-block">
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="property-item">
+                        <a href="{{ url('detail_product') }}" class="img">
+                            <img src="assets2/images/flower1.jpg" alt="Image" class="img-fluid" />
+                        </a>
 
-                                <div class="header">
-                                    <i class="fa fa-laptop icon-bg-8"></i>
-                                    <h4>Services</h4>
-                                </div>
-                                <ul class="category-list">
-                                    <li><a href="category.html">Cleaning <span>93</span></a></li>
-                                    <li><a href="category.html">Car Washing <span>233</span></a></li>
-                                    <li><a href="category.html">Clothing <span>183</span></a></li>
-                                    <li><a href="category.html">Business <span>343</span></a></li>
-                                </ul>
+                        <div class="property-content">
+                            <div class="price mb-2"><span>Bunga 1</span></div>
+                            <div>
+                                <span class="d-block mb-2 text-black-50">Kategori:</span>
+                                <span class="city d-block mb-3">Bunga</span>
+
+                                {{-- <div class="specs d-flex mb-4">
+                                <span class="d-block d-flex align-items-center me-3">
+                                    <span class="icon-bed me-2"></span>
+                                    <span class="caption">2 beds</span>
+                                </span>
+                                <span class="d-block d-flex align-items-center">
+                                    <span class="icon-bath me-2"></span>
+                                    <span class="caption">2 baths</span>
+                                </span>
+                            </div> --}}
+
+                                <a href="{{ url('detail_product') }}" class="btn btn-primary py-2 px-3">Lihat Detail</a>
                             </div>
-                        </div> <!-- /Category List -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="property-item">
+                        <a href="{{ url('detail_product') }}" class="img">
+                            <img src="assets2/images/flower1.jpg" alt="Image" class="img-fluid" />
+                        </a>
 
+                        <div class="property-content">
+                            <div class="price mb-2"><span>Bunga 2</span></div>
+                            <div>
+                                <span class="d-block mb-2 text-black-50">Kategori:</span>
+                                <span class="city d-block mb-3">Bunga</span>
 
+                                {{-- <div class="specs d-flex mb-4">
+                                <span class="d-block d-flex align-items-center me-3">
+                                    <span class="icon-bed me-2"></span>
+                                    <span class="caption">2 beds</span>
+                                </span>
+                                <span class="d-block d-flex align-items-center">
+                                    <span class="icon-bath me-2"></span>
+                                    <span class="caption">2 baths</span>
+                                </span>
+                            </div> --}}
+
+                                <a href="{{ url('detail_product') }}" class="btn btn-primary py-2 px-3">Lihat Detail</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="property-item">
+                        <a href="{{ url('detail_product') }}" class="img">
+                            <img src="assets2/images/flower1.jpg" alt="Image" class="img-fluid" />
+                        </a>
+
+                        <div class="property-content">
+                            <div class="price mb-2"><span>Bunga 3</span></div>
+                            <div>
+                                <span class="d-block mb-2 text-black-50">Kategori:</span>
+                                <span class="city d-block mb-3">Bunga</span>
+
+                                {{-- <div class="specs d-flex mb-4">
+                                <span class="d-block d-flex align-items-center me-3">
+                                    <span class="icon-bed me-2"></span>
+                                    <span class="caption">2 beds</span>
+                                </span>
+                                <span class="d-block d-flex align-items-center">
+                                    <span class="icon-bath me-2"></span>
+                                    <span class="caption">2 baths</span>
+                                </span>
+                            </div> --}}
+
+                                <a href="{{ url('detail_product') }}" class="btn btn-primary py-2 px-3">Lihat Detail</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="property-item">
+                        <a href="{{ url('detail_product') }}" class="img">
+                            <img src="assets2/images/flower1.jpg" alt="Image" class="img-fluid" />
+                        </a>
+
+                        <div class="property-content">
+                            <div class="price mb-2"><span>Bunga 4</span></div>
+                            <div>
+                                <span class="d-block mb-2 text-black-50">Kategori:</span>
+                                <span class="city d-block mb-3">Bunga</span>
+
+                                {{-- <div class="specs d-flex mb-4">
+                                <span class="d-block d-flex align-items-center me-3">
+                                    <span class="icon-bed me-2"></span>
+                                    <span class="caption">2 beds</span>
+                                </span>
+                                <span class="d-block d-flex align-items-center">
+                                    <span class="icon-bath me-2"></span>
+                                    <span class="caption">2 baths</span>
+                                </span>
+                            </div> --}}
+
+                                <a href="{{ url('detail_product') }}" class="btn btn-primary py-2 px-3">Lihat Detail</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="property-item">
+                        <a href="{{ url('detail_product') }}" class="img">
+                            <img src="assets2/images/flower1.jpg" alt="Image" class="img-fluid" />
+                        </a>
+
+                        <div class="property-content">
+                            <div class="price mb-2"><span>Bunga 5</span></div>
+                            <div>
+                                <span class="d-block mb-2 text-black-50">Kategori:</span>
+                                <span class="city d-block mb-3">Bunga</span>
+
+                                {{-- <div class="specs d-flex mb-4">
+                                <span class="d-block d-flex align-items-center me-3">
+                                    <span class="icon-bed me-2"></span>
+                                    <span class="caption">2 beds</span>
+                                </span>
+                                <span class="d-block d-flex align-items-center">
+                                    <span class="icon-bath me-2"></span>
+                                    <span class="caption">2 baths</span>
+                                </span>
+                            </div> --}}
+
+                                <a href="{{ url('detail_product') }}" class="btn btn-primary py-2 px-3">Lihat Detail</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="property-item">
+                        <a href="{{ url('detail_product') }}" class="img">
+                            <img src="assets2/images/flower1.jpg" alt="Image" class="img-fluid" />
+                        </a>
+
+                        <div class="property-content">
+                            <div class="price mb-2"><span>Bunga 6</span></div>
+                            <div>
+                                <span class="d-block mb-2 text-black-50">Kategori:</span>
+                                <span class="city d-block mb-3">Bunga</span>
+
+                                {{-- <div class="specs d-flex mb-4">
+                                <span class="d-block d-flex align-items-center me-3">
+                                    <span class="icon-bed me-2"></span>
+                                    <span class="caption">2 beds</span>
+                                </span>
+                                <span class="d-block d-flex align-items-center">
+                                    <span class="icon-bath me-2"></span>
+                                    <span class="caption">2 baths</span>
+                                </span>
+                            </div> --}}
+
+                                <a href="{{ url('detail_product') }}" class="btn btn-primary py-2 px-3">Lihat Detail</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="property-item">
+                        <a href="{{ url('detail_product') }}" class="img">
+                            <img src="assets2/images/flower1.jpg" alt="Image" class="img-fluid" />
+                        </a>
+
+                        <div class="property-content">
+                            <div class="price mb-2"><span>Bunga 7</span></div>
+                            <div>
+                                <span class="d-block mb-2 text-black-50">Kategori:</span>
+                                <span class="city d-block mb-3">Bunga</span>
+
+                                {{-- <div class="specs d-flex mb-4">
+                                <span class="d-block d-flex align-items-center me-3">
+                                    <span class="icon-bed me-2"></span>
+                                    <span class="caption">2 beds</span>
+                                </span>
+                                <span class="d-block d-flex align-items-center">
+                                    <span class="icon-bath me-2"></span>
+                                    <span class="caption">2 baths</span>
+                                </span>
+                            </div> --}}
+
+                                <a href="{{ url('detail_product') }}" class="btn btn-primary py-2 px-3">Lihat Detail</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="property-item">
+                        <a href="{{ url('detail_product') }}" class="img">
+                            <img src="assets2/images/flower1.jpg" alt="Image" class="img-fluid" />
+                        </a>
+
+                        <div class="property-content">
+                            <div class="price mb-2"><span>Bunga 8</span></div>
+                            <div>
+                                <span class="d-block mb-2 text-black-50">Kategori:</span>
+                                <span class="city d-block mb-3">Bunga</span>
+
+                                {{-- <div class="specs d-flex mb-4">
+                                <span class="d-block d-flex align-items-center me-3">
+                                    <span class="icon-bed me-2"></span>
+                                    <span class="caption">2 beds</span>
+                                </span>
+                                <span class="d-block d-flex align-items-center">
+                                    <span class="icon-bath me-2"></span>
+                                    <span class="caption">2 baths</span>
+                                </span>
+                            </div> --}}
+
+                                <a href="{{ url('detail_product') }}" class="btn btn-primary py-2 px-3">Lihat Detail</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12 text-center">
+                    <a href="{{ url('product') }}"><button class="btn btn-primary">Lihat Lainnya</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{-- <div class="section sec-testimonials">
+    <div class="container">
+        <div class="row mb-5 align-items-center">
+            <div class="col-md-6">
+                <h2 class="font-weight-bold heading text-primary mb-4 mb-md-0">
+                    Customer Says
+                </h2>
+            </div>
+            <div class="col-md-6 text-md-end">
+                <div id="testimonial-nav">
+                    <span class="prev" data-controls="prev">Prev</span>
+
+                    <span class="next" data-controls="next">Next</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4"></div>
+        </div>
+        <div class="testimonial-slider-wrap">
+            <div class="testimonial-slider">
+                <div class="item">
+                    <div class="testimonial">
+                        <img src="assets2/images/person_1-min.jpg" alt="Image"
+                            class="img-fluid rounded-circle w-25 mb-4" />
+                        <div class="rate">
+                            <span class="icon-star text-warning"></span>
+                            <span class="icon-star text-warning"></span>
+                            <span class="icon-star text-warning"></span>
+                            <span class="icon-star text-warning"></span>
+                            <span class="icon-star text-warning"></span>
+                        </div>
+                        <h3 class="h5 text-primary mb-4">James Smith</h3>
+                        <blockquote>
+                            <p>
+                                &ldquo;Far far away, behind the word mountains, far from the
+                                countries Vokalia and Consonantia, there live the blind
+                                texts. Separated they live in Bookmarksgrove right at the
+                                coast of the Semantics, a large language ocean.&rdquo;
+                            </p>
+                        </blockquote>
+                        <p class="text-black-50">Designer, Co-founder</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="testimonial">
+                        <img src="assets2/images/person_2-min.jpg" alt="Image"
+                            class="img-fluid rounded-circle w-25 mb-4" />
+                        <div class="rate">
+                            <span class="icon-star text-warning"></span>
+                            <span class="icon-star text-warning"></span>
+                            <span class="icon-star text-warning"></span>
+                            <span class="icon-star text-warning"></span>
+                            <span class="icon-star text-warning"></span>
+                        </div>
+                        <h3 class="h5 text-primary mb-4">Mike Houston</h3>
+                        <blockquote>
+                            <p>
+                                &ldquo;Far far away, behind the word mountains, far from the
+                                countries Vokalia and Consonantia, there live the blind
+                                texts. Separated they live in Bookmarksgrove right at the
+                                coast of the Semantics, a large language ocean.&rdquo;
+                            </p>
+                        </blockquote>
+                        <p class="text-black-50">Designer, Co-founder</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="testimonial">
+                        <img src="assets2/images/person_3-min.jpg" alt="Image"
+                            class="img-fluid rounded-circle w-25 mb-4" />
+                        <div class="rate">
+                            <span class="icon-star text-warning"></span>
+                            <span class="icon-star text-warning"></span>
+                            <span class="icon-star text-warning"></span>
+                            <span class="icon-star text-warning"></span>
+                            <span class="icon-star text-warning"></span>
+                        </div>
+                        <h3 class="h5 text-primary mb-4">Cameron Webster</h3>
+                        <blockquote>
+                            <p>
+                                &ldquo;Far far away, behind the word mountains, far from the
+                                countries Vokalia and Consonantia, there live the blind
+                                texts. Separated they live in Bookmarksgrove right at the
+                                coast of the Semantics, a large language ocean.&rdquo;
+                            </p>
+                        </blockquote>
+                        <p class="text-black-50">Designer, Co-founder</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="testimonial">
+                        <img src="assets2/images/person_4-min.jpg" alt="Image"
+                            class="img-fluid rounded-circle w-25 mb-4" />
+                        <div class="rate">
+                            <span class="icon-star text-warning"></span>
+                            <span class="icon-star text-warning"></span>
+                            <span class="icon-star text-warning"></span>
+                            <span class="icon-star text-warning"></span>
+                            <span class="icon-star text-warning"></span>
+                        </div>
+                        <h3 class="h5 text-primary mb-4">Dave Smith</h3>
+                        <blockquote>
+                            <p>
+                                &ldquo;Far far away, behind the word mountains, far from the
+                                countries Vokalia and Consonantia, there live the blind
+                                texts. Separated they live in Bookmarksgrove right at the
+                                coast of the Semantics, a large language ocean.&rdquo;
+                            </p>
+                        </blockquote>
+                        <p class="text-black-50">Designer, Co-founder</p>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Container End -->
-    </section> --}}
+    </div>
+</div> --}}
 
+    {{-- <div class="section section-4 bg-light">
+    <div class="container">
+        <div class="row justify-content-center text-center mb-5">
+            <div class="col-lg-5">
+                <h2 class="font-weight-bold heading text-primary mb-4">
+                    Mari cari bunga yang cocok untukmu
+                </h2>
+                <p class="text-black-50">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                    enim pariatur similique debitis vel nisi qui reprehenderit.
+                </p>
+            </div>
+        </div>
+        <div class="row justify-content-between mb-5">
+            <div class="col-lg-7 mb-5 mb-lg-0 order-lg-2">
+                <div class="img-about dots">
+                    <img src="assets2/images/hero_bg_3.jpg" alt="Image" class="img-fluid" />
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="d-flex feature-h">
+                    <span class="wrap-icon me-3">
+                        <span class="icon-home2"></span>
+                    </span>
+                    <div class="feature-text">
+                        <h3 class="heading">2M Properties</h3>
+                        <p class="text-black-50">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Nostrum iste.
+                        </p>
+                    </div>
+                </div>
 
-    <!--====================================
-    =            Call to Action            =
-    =====================================-->
+                <div class="d-flex feature-h">
+                    <span class="wrap-icon me-3">
+                        <span class="icon-person"></span>
+                    </span>
+                    <div class="feature-text">
+                        <h3 class="heading">Top Rated Agents</h3>
+                        <p class="text-black-50">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Nostrum iste.
+                        </p>
+                    </div>
+                </div>
 
-    {{-- <section class="call-to-action overly bg-3 section-sm">
-        <!-- Container Start -->
-        <div class="container">
-            <div class="row justify-content-md-center text-center">
-                <div class="col-md-8">
-                    <div class="content-holder">
-                        <h2>Start today to get more exposure and
-                            grow your business</h2>
-                        <ul class="list-inline mt-30">
-                            <li class="list-inline-item"><a class="btn btn-main" href="ad-listing.html">Add
-                                    Listing</a></li>
-                            <li class="list-inline-item"><a class="btn btn-secondary" href="category.html">Browser
-                                    Listing</a></li>
+                <div class="d-flex feature-h">
+                    <span class="wrap-icon me-3">
+                        <span class="icon-security"></span>
+                    </span>
+                    <div class="feature-text">
+                        <h3 class="heading">Legit Properties</h3>
+                        <p class="text-black-50">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Nostrum iste.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row section-counter mt-5">
+            <div class="col-6 col-sm-6 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                <div class="counter-wrap mb-5 mb-lg-0">
+                    <span class="number"><span class="countup text-primary">3298</span></span>
+                    <span class="caption text-black-50"># of Buy Properties</span>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+                <div class="counter-wrap mb-5 mb-lg-0">
+                    <span class="number"><span class="countup text-primary">2181</span></span>
+                    <span class="caption text-black-50"># of Sell Properties</span>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="500">
+                <div class="counter-wrap mb-5 mb-lg-0">
+                    <span class="number"><span class="countup text-primary">9316</span></span>
+                    <span class="caption text-black-50"># of All Properties</span>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="600">
+                <div class="counter-wrap mb-5 mb-lg-0">
+                    <span class="number"><span class="countup text-primary">7191</span></span>
+                    <span class="caption text-black-50"># of Agents</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> --}}
+
+    <div class="section">
+        <div class="row justify-content-center footer-cta" data-aos="fade-up">
+            <div class="col-lg-7 mx-auto text-center">
+                <h2 class="mb-4">Pesanlah sekarang produk kami</h2>
+                <p>
+                    <a href="#" target="_blank" class="btn btn-primary text-white py-3 px-4">Pesan disini</a>
+                </p>
+            </div>
+            <!-- /.col-lg-7 -->
+        </div>
+        <!-- /.row -->
+    </div>
+
+    {{-- <div class="section section-5 bg-light">
+    <div class="container">
+        <div class="row justify-content-center text-center mb-5">
+            <div class="col-lg-6 mb-5">
+                <h2 class="font-weight-bold heading text-primary mb-4">
+                    Our Agents
+                </h2>
+                <p class="text-black-50">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                    enim pariatur similique debitis vel nisi qui reprehenderit totam?
+                    Quod maiores.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-4 mb-5 mb-lg-0">
+                <div class="h-100 person">
+                    <img src="assets2/images/person_1-min.jpg" alt="Image" class="img-fluid" />
+
+                    <div class="person-contents">
+                        <h2 class="mb-0"><a href="#">James Doe</a></h2>
+                        <span class="meta d-block mb-3">Real Estate Agent</span>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Facere officiis inventore cumque tenetur laboriosam, minus
+                            culpa doloremque odio, neque molestias?
+                        </p>
+
+                        <ul class="social list-unstyled list-inline dark-hover">
+                            <li class="list-inline-item">
+                                <a href="#"><span class="icon-twitter"></span></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#"><span class="icon-facebook"></span></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#"><span class="icon-linkedin"></span></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#"><span class="icon-instagram"></span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4 mb-5 mb-lg-0">
+                <div class="h-100 person">
+                    <img src="assets2/images/person_2-min.jpg" alt="Image" class="img-fluid" />
+
+                    <div class="person-contents">
+                        <h2 class="mb-0"><a href="#">Jean Smith</a></h2>
+                        <span class="meta d-block mb-3">Real Estate Agent</span>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Facere officiis inventore cumque tenetur laboriosam, minus
+                            culpa doloremque odio, neque molestias?
+                        </p>
+
+                        <ul class="social list-unstyled list-inline dark-hover">
+                            <li class="list-inline-item">
+                                <a href="#"><span class="icon-twitter"></span></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#"><span class="icon-facebook"></span></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#"><span class="icon-linkedin"></span></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#"><span class="icon-instagram"></span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4 mb-5 mb-lg-0">
+                <div class="h-100 person">
+                    <img src="assets2/images/person_3-min.jpg" alt="Image" class="img-fluid" />
+
+                    <div class="person-contents">
+                        <h2 class="mb-0"><a href="#">Alicia Huston</a></h2>
+                        <span class="meta d-block mb-3">Real Estate Agent</span>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Facere officiis inventore cumque tenetur laboriosam, minus
+                            culpa doloremque odio, neque molestias?
+                        </p>
+
+                        <ul class="social list-unstyled list-inline dark-hover">
+                            <li class="list-inline-item">
+                                <a href="#"><span class="icon-twitter"></span></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#"><span class="icon-facebook"></span></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#"><span class="icon-linkedin"></span></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#"><span class="icon-instagram"></span></a>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Container End -->
-    </section> --}}
+    </div>
+</div> --}}
 @endsection

@@ -9194,9 +9194,15 @@ textarea.form-control-lg {
 .logo {
   font-size: 24px;
   color: rgba(255, 255, 255, 0.8) !important;
-  font-weight: 500; }
+  font-weight: 500; 
+}
   .logo:hover {
-    color: #fff !important; }
+    color: #fff !important; 
+  }
+.logo-img {
+  height: 50px;
+  width: 50px;
+}
 
 .site-nav {
   padding-top: 20px;
@@ -9214,11 +9220,13 @@ textarea.form-control-lg {
     .site-nav .site-navigation .site-menu > li {
       display: inline-block; }
       .site-nav .site-navigation .site-menu > li > a {
-        font-size: 14px;
+        font-size: 16px;
         padding: 10px 15px;
         display: inline-block;
         text-decoration: none !important;
-        color: rgba(255, 255, 255, 0.5); }
+        color: #fff; 
+        /* color: rgba(255, 255, 255, 0.5);  */
+      }
         .site-nav .site-navigation .site-menu > li > a:hover {
           color: #fff; }
       .site-nav .site-navigation .site-menu > li.cta-button a {
@@ -9653,7 +9661,8 @@ textarea {
   transform: translate(-50%, -50%); }
 
 .menu-bg-wrap {
-  background-color: #005555;
+  /* background-color: #005555; */
+  background-color: transparent;
   padding: 20px 30px;
   position: relative;
   float: left;
@@ -10375,3 +10384,9 @@ nav[aria-label="breadcrumb"] li:before {
       .site-footer .social li a:hover {
         background: #00204a;
         color: #fff; }
+
+/* --------------- */
+.icon-cat {
+  height: 60px;
+  width: auto;
+}

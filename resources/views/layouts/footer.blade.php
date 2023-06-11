@@ -4,7 +4,8 @@
             <div class="col-lg-6">
                 <div class="widget">
                     <h3>Contact</h3>
-                    <address>Jl. Isa No.2, RT.8/RW.8, Sukabumi Utara, Kec. Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11540
+                    <address>Jl. Isa No.2, RT.8/RW.8, Sukabumi Utara, Kec. Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus
+                        Ibukota Jakarta 11540
                     </address>
                     <ul class="list-unstyled links">
                         <li><a href="tel://(021)53662237">(021) 53662237</a></li>
@@ -94,10 +95,10 @@
                     <a href="https://untree.co">Untree.co</a>
                     <!-- License information: https://untree.co/license/ -->
                 </p>
-                <div>
+                {{-- <div>
                     Distributed by
                     <a href="https://themewagon.com/" target="_blank">themewagon</a>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>

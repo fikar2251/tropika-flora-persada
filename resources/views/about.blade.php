@@ -1,4 +1,4 @@
-@extends('layouts.app2')
+@extends('layouts.app')
 @section('content')
     <div class="hero page-inner overlay" style="background-image: url('assets2/images/hero_bg_3.jpg')">
         <div class="container">
@@ -165,7 +165,7 @@
             </div>
         </div>
     </div>
-    <div class="section">
+    {{-- <div class="section">
         <div class="container">
             <div class="row">
                 <div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
@@ -178,7 +178,7 @@
                     <img src="assets2/images/img_2.jpg" alt="Image" class="img-fluid" />
                 </div>
             </div>
-            {{-- <div class="row section-counter mt-5">
+            <div class="row section-counter mt-5">
                 <div class="col-6 col-sm-6 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
                     <div class="counter-wrap mb-5 mb-lg-0">
                         <span class="number"><span class="countup text-primary">2917</span></span>
@@ -203,9 +203,9 @@
                         <span class="caption text-black-50"># of Agents</span>
                     </div>
                 </div>
-            </div> --}}
+            </div>
         </div>
-    </div>
+    </div> --}}
 
     <div class="section sec-testimonials bg-light">
         <div class="container">
@@ -324,7 +324,7 @@
 
                     <div class="item">
                         <div class="testimonial">
-                            <img src="assets2/images/person_4.jpg" alt="Image"
+                            <img src="assets2/images/person_4-min.jpg" alt="Image"
                                 class="img-fluid rounded-circle w-25 mb-4" />
                             <h3 class="h5 text-primary">Davin Smith</h3>
                             <p class="text-black-50">Designer, Co-founder</p>

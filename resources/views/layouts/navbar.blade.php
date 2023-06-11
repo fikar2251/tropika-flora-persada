@@ -1,97 +1,49 @@
-<header>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<nav class="navbar navbar-expand-lg navbar-light navigation">
-					<a class="navbar-brand" href="index.html">
-						<img src="{{asset('assets/theme/images/logo.png')}}" alt="">
-					</a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					<div class="collapse navbar-collapse" id="navbarSupportedContent">
-						<ul class="navbar-nav ml-auto main-nav ">
-							<li class="nav-item active">
-								<a class="nav-link" href="index.html">Beranda</a>
-							</li>
-							<li class="nav-item ">
-								<a class="nav-link" href="index.html">Produk</a>
-							</li>
-							<li class="nav-item ">
-								<a class="nav-link" href="index.html">Tentang Kami</a>
-							</li>
-							{{-- <li class="nav-item dropdown dropdown-slide @@dashboard">
-								<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#!">Dashboard<span><i class="fa fa-angle-down"></i></span>
-								</a>
+<div class="site-mobile-menu site-navbar-target">
+    <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close">
+            <span class="icofont-close js-menu-toggle"></span>
+        </div>
+    </div>
+    <div class="site-mobile-menu-body"></div>
+</div>
+<nav class="site-nav">
+    <div class="container">
+        <div class="menu-bg-wrap">
+            <div class="site-navigation">
+                <a href="index.html" class="logo m-0 float-start">
+                    <img src="assets2/images/logo.jpg" class="logo-img">
+                    Tropika Flora Persada
+                </a>
 
-								<!-- Dropdown list -->
-								<ul class="dropdown-menu">
-									<li><a class="dropdown-item @@dashboardPage" href="dashboard.html">Dashboard</a></li>
-									<li><a class="dropdown-item @@dashboardMyAds" href="dashboard-my-ads.html">Dashboard My Ads</a></li>
-									<li><a class="dropdown-item @@dashboardFavouriteAds" href="dashboard-favourite-ads.html">Dashboard Favourite Ads</a></li>
-									<li><a class="dropdown-item @@dashboardArchivedAds" href="dashboard-archived-ads.html">Dashboard Archived Ads</a></li>
-									<li><a class="dropdown-item @@dashboardPendingAds" href="dashboard-pending-ads.html">Dashboard Pending Ads</a></li>
-									
-									<li class="dropdown dropdown-submenu dropright">
-										<a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0501" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu</a>
-					
-										<ul class="dropdown-menu" aria-labelledby="dropdown0501">
-											<li><a class="dropdown-item" href="index.html">Submenu 01</a></li>
-											<li><a class="dropdown-item" href="index.html">Submenu 02</a></li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-							<li class="nav-item dropdown dropdown-slide @@pages">
-								<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-									Pages <span><i class="fa fa-angle-down"></i></span>
-								</a>
-								<!-- Dropdown list -->
-								<ul class="dropdown-menu">
-									<li><a class="dropdown-item @@about" href="about-us.html">About Us</a></li>
-									<li><a class="dropdown-item @@contact" href="contact-us.html">Contact Us</a></li>
-									<li><a class="dropdown-item @@profile" href="user-profile.html">User Profile</a></li>
-									<li><a class="dropdown-item @@404" href="404.html">404 Page</a></li>
-									<li><a class="dropdown-item @@package" href="package.html">Package</a></li>
-									<li><a class="dropdown-item @@singlePage" href="single.html">Single Page</a></li>
-									<li><a class="dropdown-item @@store" href="store.html">Store Single</a></li>
-									<li><a class="dropdown-item @@blog" href="blog.html">Blog</a></li>
-									<li><a class="dropdown-item @@singleBlog" href="single-blog.html">Blog Details</a></li>
-									<li><a class="dropdown-item @@terms" href="terms-condition.html">Terms &amp; Conditions</a></li>
-								</ul>
-							</li>
-							<li class="nav-item dropdown dropdown-slide @@listing">
-								<a class="nav-link dropdown-toggle" href="#!" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-									Listing <span><i class="fa fa-angle-down"></i></span>
-								</a>
-								<!-- Dropdown list -->
-								<ul class="dropdown-menu">
-									<li><a class="dropdown-item @@category" href="category.html">Ad-Gird View</a></li>
-									<li><a class="dropdown-item @@listView" href="ad-list-view.html">Ad-List View</a></li>
-									
-									<li class="dropdown dropdown-submenu dropleft">
-										<a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0201" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu</a>
-					
-										<ul class="dropdown-menu" aria-labelledby="dropdown0201">
-											<li><a class="dropdown-item" href="index.html">Submenu 01</a></li>
-											<li><a class="dropdown-item" href="index.html">Submenu 02</a></li>
-										</ul>
-									</li>
-								</ul>
-							</li> --}}
-						</ul>
-						<ul class="navbar-nav ml-auto mt-10">
-							<li class="nav-item">
-								<a class="nav-link login-button" href="login.html">Login</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link text-white add-button" href="ad-listing.html"><i class="fa fa-plus-circle"></i> Add Listing</a>
-							</li>
-						</ul>
-					</div>
-				</nav>
-			</div>
-		</div>
-	</div>
-</header>
+                <ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
+                    <li class="active"><a href="{{ url('home') }}">Beranda</a></li>
+                    <li class=""><a href="{{ url('product') }}">Produk</a></li>
+                    {{-- <li class="has-children">
+                        <a href="properties.html">Properties</a>
+                        <ul class="dropdown">
+                            <li><a href="#">Buy Property</a></li>
+                            <li><a href="#">Sell Property</a></li>
+                            <li class="has-children">
+                                <a href="#">Dropdown</a>
+                                <ul class="dropdown">
+                                    <li><a href="#">Sub Menu One</a></li>
+                                    <li><a href="#">Sub Menu Two</a></li>
+                                    <li><a href="#">Sub Menu Three</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li> --}}
+                    {{-- <li><a href="services.html">Services</a></li> --}}
+                    <li><a href="{{ url('about') }}">Tentang Kami</a></li>
+                    <li><a href="{{ url('contact') }}">Kontak</a></li>
+                </ul>
+
+                <a href="#"
+                    class="burger light me-auto float-end mt-1 site-menu-toggle js-menu-toggle d-inline-block d-lg-none"
+                    data-toggle="collapse" data-target="#main-navbar">
+                    <span></span>
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
